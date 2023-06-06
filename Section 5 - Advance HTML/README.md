@@ -1,0 +1,14 @@
+Create a page with `index.html` that has a link to `register.html` that takes a form which has an input
+- First Name (required)
+- Last Name (required)
+- Email (required)
+- Birthday (required)
+- Gender (Radio button)
+    - Male
+    - Female
+    - Other
+- Pets (Check box)
+    - Cats
+    -  Dogs
+- Register (submit)
+- Reset (clear)
