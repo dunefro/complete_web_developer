@@ -3,17 +3,23 @@
     <title>Register Page</title>
     <body>
         <form>
-            First Name:<input type="text" required><br>
-            Last Name:<input type="text" required><br>
-            Email: <input type="email" required><br>
-            Birthday: <input type="date" required><br>
+            First Name:<input type="text" name="firstname" required><br>
+            Last Name:<input type="text" name="lastname" required><br>
+            Email: <input type="email" name="email" required><br>
+            Password: <input type="password" name="password" minlength="5"><br>
+            Birthday: <input type="date" name="birthday" required><br>
             Gender: <br>
-            Male <input type="radio" name="gender"><br>
-            Female <input type="radio" name="gender"><br>
-            Other <input type="radio" name="gender"><br>
+                Male <input type="radio" name="gender" value="male"><br>
+                Female <input type="radio" name="gender" value="female"><br>
+                Other <input type="radio" name="gender" value="other"><br>
             Pets: <br>
-            Cats <input type="checkbox"><br>
-            Dogs <input type="checkbox"><br>
+                Cats <input type="checkbox" name="cats" ><br>
+                Dogs <input type="checkbox" name="dogs" ><br>
+            Cars: <br>
+            <select name="cars" id="cars">
+                <option value="mercedez">Mercedez</option>
+                <option value="bmw">BMW</option>
+            </select><br>
             <input type="submit">
             <input type="reset">    
         </form>

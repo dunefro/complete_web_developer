@@ -2,6 +2,7 @@ Create a page with `index.html` that has a link to `register.html` that takes a 
 - First Name (required)
 - Last Name (required)
 - Email (required)
+- Password (minimume length of 5)
 - Birthday (required)
 - Gender (Radio button)
     - Male
@@ -10,5 +11,6 @@ Create a page with `index.html` that has a link to `register.html` that takes a 
 - Pets (Check box)
     - Cats
     -  Dogs
+- Cars (Select option)
 - Register (submit)
 - Reset (clear)
